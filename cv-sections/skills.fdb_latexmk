@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "skills.xdv" "skills.pdf" "skills" 0
+  "skills.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "skills.pdf"
+["xelatex"] 1572107604 "skills.tex" "skills.xdv" "skills" 1572107604
+  "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
+  "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1557342089 3751069 3e95e8a30a2d43fc44f2c90c78c41394 ""
+  "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
+  "skills.aux" 1572095626 8 a94a2480d3289e625eea47cd1b285758 ""
+  "skills.tex" 1572107603 926 100da697e099c973f354606aaa2f2d82 ""
+  (generated)
+  "skills.xdv"
+  "skills.log"
