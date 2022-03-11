@@ -132,10 +132,14 @@
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
 % Text colors
-\definecolor{darktext}{HTML}{414141}
-\colorlet{text}{darkgray}
-\colorlet{graytext}{gray}
-\colorlet{lighttext}{lightgray}
+% \definecolor{darktext}{HTML}{414141}
+\definecolor{darktext}{HTML}{000000}
+% \colorlet{text}{darkgray}
+\colorlet{text}{black}
+% \colorlet{graytext}{gray}
+\colorlet{graytext}{black}
+% \colorlet{lighttext}{lightgray}
+\colorlet{lighttext}{black}
 % Awesome colors
 \definecolor{awesome-emerald}{HTML}{00A388}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
@@ -145,7 +149,7 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{black}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -188,7 +192,7 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{24pt}{1em}\headerfontlight\color{graytext} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{24pt}{1em}\headerfontlight\color{black} #1}}
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{24pt}{1em}\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{10pt}{1em}\headerfont\itshape\color{text} #1}}
@@ -533,7 +537,7 @@
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
-  \color{gray}\vhrulefill{0.9pt}
+  \color{black}\vhrulefill{0.9pt}
 }
 
 % Define a subsection for CV
@@ -642,7 +646,8 @@
   \vspace{-4.0mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
-    \setlength{\parskip}{2.5pt}
+    % \setlength{\parskip}{2.5pt}
+    \setlength{\parskip}{4pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
@@ -666,7 +671,7 @@
   \par\addvspace{2.5ex}
   \phantomsection{}
   \lettersectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
+  \color{black}\vhrulefill{0.9pt}
   \par\nobreak\addvspace{0.4ex}
 }
 
